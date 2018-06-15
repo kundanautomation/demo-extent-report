@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Everjobs Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Add Asset Type(failed)">
+    <classes>
+      <class name="testsDefineSection.AddAssetTypeTest">
+        <methods>
+          <include name="testAddAssetType" invocation-numbers="1"/>
+          <include name="TeardownTest"/>
+          <include name="beforeMethod"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testsDefineSection.AddAssetTypeTest -->
+    </classes>
+  </test> <!-- Add Asset Type(failed) -->
+</suite> <!-- Failed suite [Everjobs Suite] -->

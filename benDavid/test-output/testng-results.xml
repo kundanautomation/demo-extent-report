@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-15T13:01:39Z" name="Test Define Section" finished-at="2018-06-15T13:03:48Z" duration-ms="128143">
+    <groups>
+    </groups>
+    <test started-at="2018-06-15T13:01:39Z" name="Add Asset Type" finished-at="2018-06-15T13:03:48Z" duration-ms="128143">
+      <class name="testsDefineSection.AddAssetTypeTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:00:57Z" name="initialize" finished-at="2018-06-15T13:01:39Z" duration-ms="42674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="openAdminDefineSection()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:01:39Z" name="openAdminDefineSection" finished-at="2018-06-15T13:01:41Z" duration-ms="1999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminDefineSection -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:01:42Z" name="beforeMethod" finished-at="2018-06-15T13:01:42Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAllFieldsRequired()[pri:1, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:01:42Z" name="testAllFieldsRequired" finished-at="2018-06-15T13:01:52Z" duration-ms="10126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllFieldsRequired -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:03Z" name="beforeMethod" finished-at="2018-06-15T13:02:03Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:03Z" name="testAddAssetType" data-provider="AssetType" finished-at="2018-06-15T13:02:09Z" duration-ms="6444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OPB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OPB description automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Asset type saved successfully.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check response on entering new Asset Type.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetType -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:09Z" name="beforeMethod" finished-at="2018-06-15T13:02:09Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:09Z" name="testAddAssetType" data-provider="AssetType" finished-at="2018-06-15T13:02:15Z" duration-ms="5750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LPB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LPB description automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Asset type saved successfully.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check response on entering new Asset Type without refresh page.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetType -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:15Z" name="beforeMethod" finished-at="2018-06-15T13:02:15Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:15Z" name="testAddAssetType" data-provider="AssetType" finished-at="2018-06-15T13:02:20Z" duration-ms="4874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LPB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Duplicate type description.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Asset type already exist.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check response on entering already exist Asset Type.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetType -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:20Z" name="beforeMethod" finished-at="2018-06-15T13:02:20Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:20Z" name="testAddAssetFilter" data-provider="AssetTypeFilter" finished-at="2018-06-15T13:02:36Z" duration-ms="16402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OPB,LPB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Total Items: 2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check filter by multiple Asset Type.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetFilter -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:36Z" name="beforeMethod" finished-at="2018-06-15T13:02:36Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:36Z" name="testAddAssetFilter" data-provider="AssetTypeFilter" finished-at="2018-06-15T13:02:47Z" duration-ms="10752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OPB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Total Items: 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check filter by single Asset Type.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetFilter -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:47Z" name="beforeMethod" finished-at="2018-06-15T13:02:47Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:02:47Z" name="testAddAssetFilter" data-provider="AssetTypeFilter" finished-at="2018-06-15T13:03:00Z" duration-ms="13083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OPB,LPB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OPB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Total Items: 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check filter by multiple Asset Type and match Assert Description.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetFilter -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:00Z" name="beforeMethod" finished-at="2018-06-15T13:03:00Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:00Z" name="testAddAssetFilter" data-provider="AssetTypeFilter" finished-at="2018-06-15T13:03:13Z" duration-ms="12852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OPB,LPB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[description automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Total Items: 2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check filter by multiple Asset Type and match Assert Description for multiple Assets.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetFilter -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:13Z" name="beforeMethod" finished-at="2018-06-15T13:03:13Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:13Z" name="testAddAssetFilter" data-provider="AssetTypeFilter" finished-at="2018-06-15T13:03:25Z" duration-ms="11924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LPB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[description automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Total Items: 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check filter by single Asset Type and match Assert Description for single Assets.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetFilter -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:25Z" name="beforeMethod" finished-at="2018-06-15T13:03:25Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:25Z" name="testAddAssetFilter" data-provider="AssetTypeFilter" finished-at="2018-06-15T13:03:37Z" duration-ms="11652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[description automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Total Items: 2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check filter by Assert Description.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetFilter -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:37Z" name="beforeMethod" finished-at="2018-06-15T13:03:37Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddAssetFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:37Z" name="testAddAssetFilter" data-provider="AssetTypeFilter" finished-at="2018-06-15T13:03:47Z" duration-ms="10504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no data]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Total Items: 0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Check filter by Assert Description for no match description.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAssetFilter -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:testsDefineSection.AddAssetTypeTest@740773a3]" started-at="2018-06-15T13:03:50Z" name="TeardownTest" finished-at="2018-06-15T13:03:51Z" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- testsDefineSection.AddAssetTypeTest -->
+    </test> <!-- Add Asset Type -->
+  </suite> <!-- Test Define Section -->
+</testng-results>

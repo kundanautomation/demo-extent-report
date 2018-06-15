@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Define Section]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentReport.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Add Asset Type(failed)">
+    <classes>
+      <class name="testsDefineSection.AddAssetTypeTest">
+        <methods>
+          <include name="openAdminDefineSection"/>
+          <include name="testAddAssetType" invocation-numbers="0 1 2"/>
+          <include name="TeardownTest"/>
+          <include name="beforeMethod"/>
+          <include name="testAddAssetFilter" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testsDefineSection.AddAssetTypeTest -->
+    </classes>
+  </test> <!-- Add Asset Type(failed) -->
+</suite> <!-- Failed suite [Test Define Section] -->

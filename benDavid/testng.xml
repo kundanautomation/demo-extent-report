@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Define Section">
+	<listeners>
+        <listener class-name="extentReport.TestListener"/>        
+    </listeners>
+	 <test name="Add Asset Type">
+	 <classes>
+		 <!-- <class name="tests.TestBase" /> --> 
+		 <class name="testsDefineSection.AddAssetTypeTest" /> 
+	 </classes> 
+ </test> 
+ 
+</suite> <!-- Suite -->

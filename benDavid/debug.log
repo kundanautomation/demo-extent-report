@@ -1,0 +1,20 @@
+[0612/093956.063:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0612/093956.065:ERROR:exception_snapshot_win.cc(88)] thread ID 7576 not found in process
+[0612/093956.065:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0613/144702.053:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0613/144702.109:ERROR:exception_snapshot_win.cc(88)] thread ID 5220 not found in process
+[0613/144702.110:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0613/174830.622:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0613/174830.657:ERROR:exception_snapshot_win.cc(88)] thread ID 5532 not found in process
+[0613/174830.659:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0613/180441.071:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0613/180441.072:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0613/180441.072:ERROR:exception_snapshot_win.cc(88)] thread ID 6372 not found in process
+[0613/181024.931:ERROR:process_reader_win.cc(242)] ReadMemory at 0xc5213e4000 of 114688 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0613/181024.931:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0613/181024.932:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\indianic\AppData\Local\Temp\scoped_dir6460_16945\Crashpad\reports\f511d25e-937b-40d4-9c97-d42ba7ac8015.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0613/181024.933:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0613/181547.489:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0613/181547.490:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0613/181547.490:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0613/181547.490:ERROR:exception_snapshot_win.cc(88)] thread ID 6076 not found in process
